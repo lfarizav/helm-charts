@@ -66,5 +66,5 @@ dependencies:
     condition: grafana.enabled
   - name: prometheus-windows-exporter
     repository: https://prometheus-community.github.io/helm-charts
-    version: "0.7.*"
+    version: "0.8.*"
     condition: windowsMonitoring.enabled
